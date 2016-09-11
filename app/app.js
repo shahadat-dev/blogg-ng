@@ -1,7 +1,8 @@
 'use strict';
 
 var bloggApp = angular.module('bloggApp', [
-  'ngRoute'
+  'ngRoute',
+  'ngResource'
 ]);
 
 bloggApp.config(['$routeProvider', function($routeProvider) {
